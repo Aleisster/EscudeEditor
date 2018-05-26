@@ -11,7 +11,7 @@ namespace EscudeEditor {
         string halfgana = "!?｡｢｣､･ｦｧｨｩｪｫｬｭｮｯｰｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝﾞﾟ";
         string fullgana = "！？　。「」、…をぁぃぅぇぉゃゅょっーあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわん゛゜";
 
-        public Encoding Encoding = Encoding.GetEncoding(932);
+        public Encoding Encoding = Encoding.GetEncoding(1252);
         byte[] Script;
         BinFormat Bin;
         public BinScript(byte[] Script) => this.Script = Script;
